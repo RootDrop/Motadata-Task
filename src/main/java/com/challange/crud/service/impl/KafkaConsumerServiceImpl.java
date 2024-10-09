@@ -15,7 +15,6 @@ public class KafkaConsumerServiceImpl implements KafkaConsumerService {
     @KafkaListener(topics = "learn", groupId = "audit-logger-group")
     public void consume(String message) {
         System.out.println("Received message: " + message);
-        // Log the received message to the audit table
         auditLogService.logAudit(message);
     }
 }
