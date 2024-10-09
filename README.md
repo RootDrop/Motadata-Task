@@ -10,13 +10,13 @@ Delete: Remove entries from the database.
  
 # Requirements
 Java 17<br>
-PostgreSQL database
+MySQL database
 
 # Setup
 
 Clone the repository:<br>
-1. https://github.com/RootDrop/VNH.git <br>
-2. cd vhn
+1. https://github.com/RootDrop/Motadata-Task.git <br>
+2. cd Motadata-Task
 
 Configure the database:<br>
 1. Create a database crud
@@ -33,11 +33,11 @@ Access the application:<br>
 2. Refer to the API documentation or explore the codebase to understand how to interact with the application.
 
 # API Endpoints
-1. /api/customer : create new customer
-2. /api/customer : retrieve all customers
-3. /api/customer/{id} : retrieve specific customer
-4. /api/customer : update existing customer
-5. /api/customer : delete new customer
+1. /api/v1/customer : create new customer
+2. /api/v1/customer : retrieve all customers
+3. /api/v1/customer/{id} : retrieve specific customer
+4. /api/v1/customer : update existing customer
+5. /api/v1/customer : delete new customer
 
 # Contributing
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
